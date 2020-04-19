@@ -1,0 +1,5 @@
+cd appengine-hello-python
+sudo pip3 install -r requirements.txt
+python main.py
+
+Note: The program is configured to run on port 8080. You can see this if you look at the main.py file. At the bottom, when the app runs, the port is set.
